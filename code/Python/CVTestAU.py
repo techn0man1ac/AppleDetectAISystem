@@ -1,4 +1,10 @@
-# Example: reuse your existing OpenAI setup
+'''
+
+Simple Apple Detect AI System
+https://github.com/techn0man1ac/AppleDetectAISystem
+
+'''
+
 from openai import OpenAI
 import base64
 
