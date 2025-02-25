@@ -1,6 +1,7 @@
 /*
 
-  Simple Apple Detect AI System
+Simple Apple Detect AI System
+https://github.com/techn0man1ac/AppleDetectAISystem
 
 */
 
