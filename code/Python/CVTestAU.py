@@ -4,7 +4,6 @@ Simple Apple Detect AI System
 https://github.com/techn0man1ac/AppleDetectAISystem
 
 '''
-
 from openai import OpenAI
 import base64
 
@@ -23,9 +22,9 @@ import serial
 
 ser = serial.Serial('COM10', baudrate=115200)
 
-for cycles in range(100):
-    # make the list of all available cameras 
-    camlist = [0, 2]
+while True:
+    # make the list of all available cameras https://www.geeksforgeeks.org/how-to-capture-a-image-from-webcam-in-python/
+    camlist = pygame.camera.list_cameras() 
     
     # if camera is detected or not 
     if camlist: 
