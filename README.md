@@ -59,7 +59,7 @@ pip install openai pygame pyserial
 ### 4. Run the Python Script
 
 ```sh
-python CVTestAU.py
+python CVTestAI.py
 ```
 
 ## Expected Output
