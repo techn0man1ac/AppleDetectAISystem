@@ -2,7 +2,7 @@
 
 ![Webcap photo](https://raw.githubusercontent.com/techn0man1ac/AppleDetectAISystem/refs/heads/main/imgs/filename.jpg)
 
-Apple Detect AI System is a simple AI-powered system that detects apples using a camera and controls an Arduino board based on the detection result. This project uses **[LM Studio](https://lmstudio.ai/))** to run the **([MiniCPM V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6)** multimodal AI model locally.
+Apple Detect AI System is a simple AI-powered system that detects apples using a camera and controls an Arduino board based on the detection result. This project uses **[LM Studio](https://lmstudio.ai/)** to run the **[MiniCPM V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6)** multimodal AI model locally.
 
 ## Video demonstration
 
