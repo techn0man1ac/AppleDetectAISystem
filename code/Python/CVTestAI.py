@@ -18,7 +18,6 @@ client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 
 # initializing  the camera 
 pygame.camera.init() 
-import serial
 
 ser = serial.Serial('COM10', baudrate=115200)
 
@@ -37,7 +36,10 @@ while True:
     
         # capturing the single image 
         image = cam.get_image() 
-    
+
+        # closing the camera 
+        cam.start() 
+        
         # saving the image 
         pygame.image.save(image, "filename.jpg") 
     
@@ -54,7 +56,7 @@ while True:
 
 
     completion = client.chat.completions.create(
-        model="minicpm-v-2_6",
+        model="gemma-3-4b-it",
         messages=[
             {
                 "role": "user",
