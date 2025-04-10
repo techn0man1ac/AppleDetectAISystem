@@ -2,7 +2,7 @@
 
 ![Webcap photo](https://raw.githubusercontent.com/techn0man1ac/AppleDetectAISystem/refs/heads/main/imgs/filename.jpg)
 
-Apple Detect AI System is a simple AI-powered system that detects apples using a camera and controls an Arduino board based on the detection result. This project uses **[LM Studio](https://lmstudio.ai/)** to run the **[MiniCPM V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6)** multimodal AI model locally.
+Apple Detect AI System is a simple AI-powered system that detects apples using a camera and controls an Arduino board based on the detection result. This project uses **[LM Studio](https://lmstudio.ai/)** to run the **[Gemma 3 4b](https://huggingface.co/google/gemma-3-4b-it)** multimodal AI model locally.
 
 ## Video demonstration
 
@@ -11,7 +11,7 @@ https://youtube.com/shorts/DjQJwr3t2xY
 ## How It Works
 
 1. The **camera** captures an image.
-2. The image is **sent to the AI model** MiniCPM V-2.6 running on LM Studio.
+2. The image is **sent to the AI model** Gemma 3 4b running on LM Studio.
 3. The AI **analyzes the image** and determines if an apple is present.
 4. If an apple is detected:
    - The system sends `1` to the Arduino board.
@@ -33,7 +33,7 @@ https://youtube.com/shorts/DjQJwr3t2xY
 ### Software
 
 - **Python 3**
-- **LM Studio** (running MiniCPM V-2.6)
+- **LM Studio** (running Gemma 3 4b)
 - **Arduino IDE**
 - Python Libraries:
   - `openai`
@@ -45,7 +45,7 @@ https://youtube.com/shorts/DjQJwr3t2xY
 ### 1. Set Up LM Studio
 
 - Download and install **LM Studio**.
-- Load the **MiniCPM V-2.6** model.
+- Load the **Gemma 3 4b** model.
 - Start the LM Studio server (`http://localhost:1234/v1`).
 
 ### 2. Install Python Dependencies
